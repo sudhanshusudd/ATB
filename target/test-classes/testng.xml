@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="false" thread-count="1">
+	
+	<!-- <test name="Tests on Android App">
+	    <parameter name="browser" value="AndroidApp" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+	<!-- <test name="Tests on iOS App">
+	    <parameter name="browser" value="iOSApp" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+	
+   <!--  <test name="Tests on Firefox Browser">
+	    <parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+	
+	<!-- <test name="Tests on Android Chrome Browser">
+	    <parameter name="browser" value="AndroidChrome" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+	<!-- <test name="Tests on iOS Chrome Browser">
+	    <parameter name="browser" value="iOSChrome" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+<!-- 	<test name="Tests on Chrome Browser">
+	    <parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+		<test name="Regression Test">
+		<classes>
+			<class name="ATB.MasterATB.Driver"></class>
+		</classes>
+	</test>
+	<!-- <test name="Tests on Safari Browser">
+	    <parameter name="browser" value="Safari" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+	<!-- <test name="Tests on IE Browser">
+	    <parameter name="browser" value="InternetExplorer" />
+		<classes>
+			<class name="com.org.proj.application.Script.Driver"></class>
+		</classes>
+	</test> -->
+	 
+</suite>

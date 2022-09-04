@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-04T16:49:43Z" name="TestSuite" finished-at="2022-09-04T16:49:43Z" duration-ms="25">
+    <groups>
+    </groups>
+    <test started-at="2022-09-04T16:49:43Z" name="Regression Test" finished-at="2022-09-04T16:49:43Z" duration-ms="25">
+      <class name="ATB.MasterATB.Driver">
+        <test-method is-config="true" signature="preRequisites()[pri:0, instance:ATB.MasterATB.Driver@4f18837a]" started-at="2022-09-04T16:49:43Z" name="preRequisites" finished-at="2022-09-04T16:49:43Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisites -->
+        <test-method signature="Test()[pri:0, instance:ATB.MasterATB.Driver@4f18837a]" started-at="2022-09-04T16:49:43Z" name="Test" finished-at="2022-09-04T16:49:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- ATB.MasterATB.Driver -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
