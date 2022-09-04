@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo 'Building the application'
 		git branch: 'main', url:'https://github.com/sudhanshusudd/ATB.git'
-		bat mvn clean test - Dsuite=testng.xml
+		bat mvn clean test - Dsuite=ATB/MasterATB/src/test/resources/testng.xml
 		    
             }
         }
