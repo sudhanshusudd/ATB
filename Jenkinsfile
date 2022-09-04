@@ -1,10 +1,16 @@
 pipeline {
     agent any
+	tools{
+	maven: mvn
+	}
 
     stages {
         stage('Build') {
             steps {
-                echo 'Build'
+                echo 'Building the application'
+		git branch: 'main', url:'https://github.com/sudhanshusudd/ATB.git'
+		bat mvn clean test - Dsuite=testng.xml
+		    
             }
         }
     
