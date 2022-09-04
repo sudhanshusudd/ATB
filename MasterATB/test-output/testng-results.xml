@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-03T20:07:25Z" name="TestSuite" finished-at="2022-09-03T20:07:25Z" duration-ms="39">
+  <suite started-at="2022-09-04T16:39:21Z" name="TestSuite" finished-at="2022-09-04T16:39:21Z" duration-ms="24">
     <groups>
     </groups>
-    <test started-at="2022-09-03T20:07:25Z" name="Regression Test" finished-at="2022-09-03T20:07:25Z" duration-ms="39">
+    <test started-at="2022-09-04T16:39:21Z" name="Regression Test" finished-at="2022-09-04T16:39:21Z" duration-ms="24">
       <class name="ATB.MasterATB.Driver">
-        <test-method signature="Test()[pri:0, instance:ATB.MasterATB.Driver@291caca8]" started-at="2022-09-03T20:07:25Z" name="Test" finished-at="2022-09-03T20:07:25Z" duration-ms="10" status="PASS">
+        <test-method signature="Test()[pri:0, instance:ATB.MasterATB.Driver@24313fcc]" started-at="2022-09-04T16:39:21Z" name="Test" finished-at="2022-09-04T16:39:21Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
